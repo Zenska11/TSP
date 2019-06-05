@@ -4,9 +4,9 @@ fun main() {
     val n = 4
 
 
-    var distance = Array(n, {IntArray(n)})
-    var visited = IntArray(n)
-    var shortest = IntArray(2)
+    val distance = Array(n, {IntArray(n)})
+    val visited = IntArray(n)
+    val shortest = IntArray(2)
 
     for (i in visited){
         visited[i] = 0
